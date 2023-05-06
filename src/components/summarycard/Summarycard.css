@@ -1,0 +1,29 @@
+.summaryCard{
+    height: 30rem;
+    width: 150%;
+    background-color: var(--color-l-bg-variant);
+    margin: 1rem;
+    padding: .5rem;
+    overflow: hidden;
+}
+.summaryCard>h1{
+    font-size: 1.5rem;
+    margin: .2rem;
+    padding: .2rem;
+    background-color: var(--color-l-bg);
+}
+.summaryCard>div{
+    height: 100%;
+    width: 100%;
+    margin: .5rem;
+    padding: .5rem;
+    overflow: scroll;
+
+}
+
+@media screen and (max-width: 800px){
+    .summaryCard{
+        height: 100%;
+        width: 90%;
+    }
+  }

@@ -1,0 +1,30 @@
+.showCard{
+    height: auto;
+    width: 90%;
+    background-color: var(--color-l-bg-variant);
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showCard>img{
+    height: 100%;
+    width: 90%;
+    margin: .5rem;
+}
+.showCard>h1{
+    font-size: 1rem;
+    padding: .2rem;
+}
+.showCard>div{
+    display: flex;
+}
+.showCard>div>p{
+    padding: .1rem;
+    margin: .1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: .7rem;
+}

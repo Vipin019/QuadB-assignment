@@ -1,0 +1,8 @@
+.header{
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 40%;
+}

@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  :root {
+    --color-l-bg:  rgb(191, 190, 190);
+    --color-l-bg-variant: rgb(155, 155, 155);
+    --color-d-bg:  rgb(15, 17, 45);
+    --color-d-bg-variant: rgb(4, 6, 29);
+    --color-primary: rgb(46, 185, 240);
+    --color-primary-variant: rgb(15, 157, 213);
+    --color-secondary: rgb(150, 89, 234);
+    --color-secondary-variant: rgb(114, 45, 211);
+    --color-white: white;
+    --color-light: rgb(197, 197, 197);
+    --color-dark: rgb(7, 3, 38);
+  
+    --transition: all 400ms ease;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  body{
+    background-color: rgb(240, 240, 240);
+  }
+  .btn{
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: var(--color-light);
+  }
+  .btn-l{
+    background-color: var(--color-d-bg);
+    
+  }
+  .btn-d{
+    background-color: var(--color-d-bg);
+  }
+  .btn:hover{
+    cursor: pointer;
+    font-size: 1.01rem;
+    transition: var(--transition);
+    color: var(--color-white);
+  }
+  .btn-l:hover{
+    background-color: var(--color-d-bg-variant);
+    transition: var(--transition);
+  }
+  .btn-d:hover{
+    background-color: var(--color-d-bg);
+    transition: var(--transition);
+  }

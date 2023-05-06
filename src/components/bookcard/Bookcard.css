@@ -1,0 +1,48 @@
+.bookCard{
+    height: auto;
+    width: 150%;
+    background-color: var(--color-l-bg-variant);
+    margin: 1rem;
+    padding: .5rem;
+    overflow: hidden;
+}
+.bookCard>h1{
+    font-size: 1.5rem;
+    margin: .2rem;
+    padding: .2rem;
+    background-color: var(--color-l-bg);
+}
+.bookCard__form{
+    height: 100%;
+    width: 100%;
+    margin: .5rem;
+    padding: .5rem;
+    
+
+}
+.bookCard__form>form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bookCard__form>form>input{
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+
+}
+@media screen and (max-width: 800px){
+    .bookCard{
+        height: 100%;
+        width: 90%;
+    }
+    .bookCard__form>form>input{
+        width: 80%;
+    
+    }
+  }

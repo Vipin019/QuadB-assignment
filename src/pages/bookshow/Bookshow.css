@@ -1,0 +1,22 @@
+.bookShow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.bookShow__container{
+    width: 90%;
+    height: auto;
+    background-color: var(--color-l-bg);
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width: 800px){
+    .bookShow__container{
+        display: flex;
+        flex-direction: column;
+    }
+  }
